@@ -1,0 +1,21 @@
+div {
+    width: 512px;
+    height: 512px;
+    background-image: url(shrek.png);
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example {
+    0% {
+        background-image: url(shrek.png);
+    }
+    25% {
+        background-image: url(doge.png);
+    }
+    50% {
+        background-image: url(pets.png);
+    }
+    100% {
+        background-image: url(simpsons.jpg);
+    }
+}
