@@ -1,0 +1,63 @@
+div {
+    width: 512px;
+    height: 512px;
+    background-image: url(shrek.png);
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+@keyframes example {
+    0% {
+        background-image: url(shrek.png);
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background-image: url(doge.png);
+        left: 1024px;
+        top: 0px;
+    }
+    50% {
+        background-image: url(simpsons.jpg);
+        left: 1024px;
+        top: 1024px;
+    }
+    75% {
+        background-image: url(pets.png);
+        left: 0px;
+        top: 1024px;
+    }
+    100% {
+        background-image: url(doge.png);
+        left: 0px;
+        top: 0px;
+    }
+}
+@keyframes example {
+    0% {
+        background-image: url(shrek.png);
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background-image: url(doge.png);
+        left: 1024px;
+        top: 0px;
+    }
+    50% {
+        background-image: url(simpsons.jpg);
+        left: 1024px;
+        top: 1024px;
+    }
+    75% {
+        background-image: url(pets.png);
+        left: 0px;
+        top: 1024px;
+    }
+    100% {
+        background-image: url(doge.png);
+        left: 0px;
+        top: 0px;
+    }
+}
