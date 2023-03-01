@@ -1,0 +1,17 @@
+div {
+    width: 512px;
+    height: 512px;
+    background-image: url(Simpsons.jpg);
+    position: relative;
+    animation: mymove 3s;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+}
+@keyframes mymove {
+    from {
+        top: 0px;
+    }
+    to {
+        top: 200px;
+    }
+}
