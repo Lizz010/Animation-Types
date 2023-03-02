@@ -1,0 +1,17 @@
+div {
+    width: 512px;
+    height: 512px;
+    background-image: url(doge.png);
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 3;
+}
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 0%;
+    }
+    to {
+        margin-left: 100% width: 0%;
+    }
+}
