@@ -1,0 +1,14 @@
+p, h1, h2, h3 {
+    animation-duration: 8s;
+    animation-name: SlideFont;
+    animation-iteration-count: infinite;
+}
+@keyframes SlideFont {
+    from {
+        margin-left: 100%;
+        width: 0%;
+    }
+    to {
+        margin-left: 0% width: 0%;
+    }
+}
