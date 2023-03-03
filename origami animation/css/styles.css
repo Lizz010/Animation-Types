@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background: #333;
+}
+#contenedor {
+    width: 1000px;
+    height: 650px;
+    border: 10px solid #C30;
+    margin: 0 auto;
+    background: url(../imgs/fondo.png) no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+#origamiblanco {
+    width: 216px;
+    height: 193px;
+    background: url(../imgs/origami-blanco.png) no-repeat;
+    position: absolute;
+    top: 135px;
+    left: 388px;
+    animation: animarorigamiblanco 5s infinite;
+}
+#origamiazul {
+    width: 164px;
+    height: 154px;
+    background: url(../imgs/origami-azul.png) no-repeat;
+    position: absolute;
+    top: 307px;
+    left: 401px;
+    animation: animarorigamiazul 10s infinite;
+}
+#origamifucsia {
+    width: 144px;
+    height: 128px;
+    background: url(../imgs/origami-fucsia.png) no-repeat;
+    position: absolute;
+    top: 25px;
+    left: 824px;
+    animation: animarorigamifucsia 20s infinite;
+    z-index: 100;
+}
+@keyframes animarorigamiblanco {
+    from {
+        left: 159px;
+        top: 135px;
+    }
+    to {
+        left: 1010px;
+        top: -139px;
+    }
+}
+@keyframes animarorigamiazul {
+    from {
+        left: 167px;
+        top: 307px;
+    }
+    to {
+        left: 1010px;
+        top: -130px;
+    }
+}
+@keyframes animarorigamifucsia {
+    0% {
+        left: -153px;
+        top: 660px;
+    }
+    50% {
+        left: 856px;
+        top: 315px;
+    }
+    75% {
+        left: 377px;
+        top: 95px;
+    }
+    100% {
+        left: 1010px;
+        top: -128px;
+    }
+}
+/*--- Animaciones ---*/
